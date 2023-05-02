@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* -----------NAVIGATION BAR----------------- */
+
+.home-container {
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.bar-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin: 0 10px;
+  line-height: 100px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav-title {
+  color: black;
+  font-size: 50px;
+}
+
+.body {
+  background-image: url(./src/img/imagen\ inicio.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-size: 100%;
+}
+
+.access {
+  float: right;
+  margin-top: 200px;
+}
+.access a {
+  border: solid 5px black;
+  border-radius: 10px;
+}
+
+.single {
+  background-color: #f2ce51;
+  opacity: 0.5;
+}
+
+#create {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  gap: 10px;
+  align-items: center;
+}
+
+#create input {
+  padding: 5px 15px;
+  width: 600px;
+  border: solid 2px rgb(204, 184, 6);
+  border-radius: 10px;
+}
+
+#create button {
+  height: 30px;
+  width: 200px;
+  border: solid 2px rgb(204, 184, 6);
+  border-radius: 2px;
+}
+
+.workshops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#workshops {
+  padding-top: 200px;
+}
+
+#cart {
+  height: 30px;
+  width: 100px;
+  border: solid 2px rgb(204, 184, 6);
+  border-radius: 2px;
+}
